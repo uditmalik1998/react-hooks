@@ -1,11 +1,13 @@
 import "./App.css";
-import Counter from "./components/counter";
+import FetchData from "./components/FetchData";
+import FormData from "./components/FormData";
 
 function App() {
 
   return (
     <div>
-      <Counter />
+      <FetchData />
+      {/* <FormData /> */}
     </div>
   );
 }
